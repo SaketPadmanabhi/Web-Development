@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Race Registration Form</title>
+
+<body>
+    <form action="\register">
+        <h1>Race Registration</h1>
+        <div>
+            <label for="FN"> First Name</label>
+            <input type="text" id="FN" name="First Name" required>
+            <label for="LN"> Last Name</label>
+            <input type="text" id="LN" name="Last Name" required>
+        </div>
+
+        <p1>Select a Race:</p1>
+        <div>
+            <label for="html">Fun Run 5k</label>
+            <input type="radio" id="html" name="race" value="html">
+        </div>
+        <div>
+            <label for="HM">Half Marathon</label>
+            <input type="radio" id="HM" name="race" value="HM">
+        </div>
+        <div>
+            <label for="FM">Full Run 15k</label>
+            <input type="radio" id="FM" name="race" value=FM>
+        </div>
+
+        <div>
+            <label for="email"> Email </label>
+            <input type="email" id="email" required>
+            <label for="PW"> Password </label>
+            <input type='password' id="PW" required>
+        </div>
+
+        <div>
+            <label for="DD"> Select Age Group: </label>
+            <select name="Age Group" id="DD">
+                <option value="Above 21">Above 21</option>
+                <option value="Above 18">Above 18</option>
+                <option value="Under 18">Under 18</option>
+            </select>
+        </div>
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
